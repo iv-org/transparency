@@ -16,6 +16,8 @@ VPS: 0.0205 XMR worth ~4€ at the time of payment
 
 Bounty ( https://github.com/iv-org/invidious/pull/1953 ): 0.000405221 BTC worth ~16.50€ (~20$) at the time of payment
 
+Bounty ( https://github.com/iv-org/invidious/pull/2110 ): 0.00027  BTC worth ~8.29€ (~10$) at the time of payment
+
 
 ## Current funds:
 
