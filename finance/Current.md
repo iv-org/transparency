@@ -12,7 +12,7 @@ Monero (XMR): 3.037435106574 XMR worth ~X€ at the time of publishing (Monero p
 
 ## Expenses:
 
-#### To simplify things for us, the VPSs will be paid in advance (all of 2021): 6 months in advance + June 2021
+#### To simplify things for us, the VPSs has been paid in advance (all of 2021): 6 months in advance + June 2021
 
 #### Paid until December 2021 (included): 4€ x 2 VPS x 7 months = 56€
 
