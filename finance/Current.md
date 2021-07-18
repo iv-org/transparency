@@ -1,6 +1,6 @@
 # Current report - The estimated value of the cryptocurrencies / the cryptocurrencies price will be changed when it will be published "officially" at the end of the month
 
-# Finances for June 2021:
+# Finances for X 2021:
 
 
 ## Donations:
