@@ -1,0 +1,52 @@
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "30 0 1 * *"
+
+jobs:
+  TemplateTransparencyReport:
+    runs-on: ubuntu-latest
+    name: Template the transparency report for iv-org
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: "Fetch data for report"
+        uses: syeopite/transparency-data-fetcher-for-iv-org@v1.1
+        id: data_fetch_step
+        with:
+          github-token: ${{ github.token }}
+
+      - name: "Setup python for templating report"
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.5
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r src/requirements.txt
+
+      - name: Template report
+        run: |
+          python src/generate.py '${{ steps.data_fetch_step.outputs.fetched-btc-bounty-data }}'
+
+      # Auto commit resulting md file
+      - name: "Auto commiting resulting markdown instance list"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Template transparency report for ${date -d "$(date +%Y-%m)-15 last month" '+%Y-%m'}
+          file_pattern: ${date -d "$(date +%Y-%m)-15 last month" '+%Y-%m'}.md
+
+      # https://github.com/iv-org/invidious/blob/ad7fefae1ca0b734fbe986eb8bb13f1996e2f5f8/.github/workflows/monthly_release.yml#L13
+      - id: fetch_date
+        run: echo ::set-output name=date::$(date -d "$(date +%Y-%m)-15 last month" '+%B-%Y')
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          delete-branch: true
+          body: This is the template for the ${{ steps.fetch_date.outputs.date }} transparency report
+          title: ${{ steps.fetch_date.outputs.date }} transparency report
+          branch: ${{ steps.fetch_date.outputs.date }}-Report
