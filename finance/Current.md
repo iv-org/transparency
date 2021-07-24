@@ -7,7 +7,7 @@
 
 Bitcoin (BTC): X BTC worth ~X€ at the time of publishing (Bitcoin price ~X€)
 
-Monero (XMR): 3.037435106574 XMR worth ~X€ at the time of publishing (Monero price ~X€)
+Monero (XMR): 5.037435106574 XMR worth ~X€ at the time of publishing (Monero price ~X€)
 
 
 ## Expenses:
@@ -23,4 +23,4 @@ Monero (XMR): 3.037435106574 XMR worth ~X€ at the time of publishing (Monero p
 
 Bitcoin (BTC): 0.30450854 BTC worth ~X€ at the time of publishing (Bitcoin price ~X€)
 
-Monero (XMR): 3.104631059845 XMR worth ~X€ at the time of publishing (Monero price ~X€)
+Monero (XMR): 5.104631059845 XMR worth ~X€ at the time of publishing (Monero price ~X€)
