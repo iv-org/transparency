@@ -13,7 +13,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: "Fetch data for report"
-        uses: syeopite/transparency-data-fetcher-for-iv-org@v1.1
+        uses: syeopite/transparency-data-fetcher-for-iv-org@v1.1.1
         id: data_fetch_step
         with:
           github-token: ${{ github.token }}
