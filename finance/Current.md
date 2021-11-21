@@ -22,7 +22,7 @@ Bounty ( https://github.com/iv-org/invidious/pull/2629 ): 0.0001725 BTC worth ~8
 
 #### Main VPS upgrade:
 
-Old VPS upgraded from 4€ to 5.88€ - Difference of 1.88€/month (this VPS will be removed when everything will be moved to the new one)
+Old VPS untouched (this VPS will be removed when everything will be moved to the new one)
 
 New VPS created: 5.88€/month
 
@@ -35,16 +35,18 @@ Old VPS upgraded from 4€ to 4.79€ - Difference of 0.79€/month
 ```
 New Main VPS: 5.88€ x 3 months = 17.64€
 
-Old Main VPS: 1.88€ x 3 months = 5.64€
-
 Test VPS: 0.79€ x 3 months = 2.37€
 
 Transaction fees handling (agreed with Perflyst to be 1€/month for all our VPS): 1€ x 3 months = 3€
 
-Total: 28.65€
+Total: 23.01€
 ```
 
 0.1314 XMR worth ~28.65€ at the time of payment
+
+Note: due to a human error when reading the dashboard an equivalent of 5.64€ more have be sent by mistake.
+
+This will be "fixed" the next time the VPS are paid, by removing an equivalent of 5.64€.
 
 
 ## Current funds:
