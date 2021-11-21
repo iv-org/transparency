@@ -20,7 +20,7 @@ Bounty ( https://github.com/iv-org/invidious/pull/2629 ): 0.0001725 BTC worth ~8
 
 ### The VPSs have been upgraded on October 2nd.
 
-#### Main VPS upgrade:
+#### Main VPS upgrade:
 
 Old VPS untouched (this VPS will be removed when everything will be moved to the new one)
 
