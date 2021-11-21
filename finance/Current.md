@@ -51,7 +51,7 @@ This will be "fixed" the next time the VPS are paid, by removing an equivalent o
 
 ## Current funds:
 
-Bitcoin (BTC): X BTC worth ~X€ at the time of publishing (Bitcoin price ~X€)
+Bitcoin (BTC): 0.30455 BTC worth ~X€ at the time of publishing (Bitcoin price ~X€)
 
 Monero (XMR): 5.486143612311 XMR worth ~X€ at the time of publishing (Monero price ~X€)
 
