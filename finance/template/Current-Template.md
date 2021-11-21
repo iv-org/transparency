@@ -9,6 +9,10 @@ Bitcoin (BTC): X BTC worth ~X at the time of publishing (Bitcoin price ~X€)
 
 Monero (XMR): X XMR worth ~X€ at the time of publishing (Monero price ~X)
 
+Ethereum (ETH): X ETH worth ~X€ at the time of publishing (Ethereum price ~X)
+
+Litecoin (LTC): X LTC worth ~X€ at the time of publishing (Litecoin price ~X)
+
 
 ## Expenses:
 
@@ -20,3 +24,7 @@ None
 Bitcoin (BTC): X BTC worth ~X€ at the time of publishing (Bitcoin price ~X€)
 
 Monero (XMR): X XMR worth ~X€ at the time of publishing (Monero price ~X€)
+
+Ethereum (ETH): X ETH worth ~X€ at the time of publishing (Ethereum price ~X)
+
+Litecoin (LTC): X LTC worth ~X€ at the time of publishing (Litecoin price ~X)
